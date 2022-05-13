@@ -1,0 +1,79 @@
+*{
+margin:0;
+padding: 0;
+}
+
+#contenido{
+	 height: 730px;
+	 border-radius: 1em;
+	 width: 90%;
+} 
+ 
+#section{
+	 height: 65%;
+	 width: 45%;
+	 border: thick solid #000000;
+	 margin: 1em;
+	 float: left;
+	  background: white;
+}
+ 
+#aside{
+	 height: 65%;
+	 width: 45%;
+	 border: thick solid #000000;
+	 margin: 1em;
+	 float: right;
+	 background: white;
+}
+ 
+#sintomas{
+	 height: 65%;
+	 width: 97%;
+	 border: thick solid #000000;
+	 margin: 1em;
+	 float: right;
+	 background-image:url(uwu.jpg);
+}
+
+input[type=text], select{
+  width: 90%;
+  padding: 12px 40px;
+  margin: 8px 9px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0);
+  border-radius: 2em;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+}
+
+input[type=button] {
+  width: 100%;
+  background-color: #E77F69;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+  float: left;
+  
+}
+
+div {
+  border-radius: 5px;
+ background-image: url();
+  margin: 1em;
+  width: 80%;
+  height: 60%;
+  margin: 50px;
+}
